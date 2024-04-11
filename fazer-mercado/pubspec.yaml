@@ -1,0 +1,28 @@
+name: app06
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  device_preview: ^1.1.0
+  flutter:
+    sdk: flutter
+  path: 1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - lib/images/
+  uses-material-design: true
+
+  fonts:
+    - family: Impact
+      fonts:
+        - asset: fonts/impact.ttf
